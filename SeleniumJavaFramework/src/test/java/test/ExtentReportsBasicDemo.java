@@ -61,7 +61,6 @@ ExtentTest test2 = extent.createTest("Google Search Test Two", " this is a test 
 		test1.info("Test Completed");
 		
 		extent.flush();
-				
 		
 	} 
 
