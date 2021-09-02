@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-27T12:46:54 IST" name="Default suite" finished-at="2021-08-27T12:47:38 IST" duration-ms="44521">
+  <suite started-at="2021-08-31T21:36:16 IST" name="Default suite" finished-at="2021-08-31T21:37:03 IST" duration-ms="46726">
     <groups>
     </groups>
-    <test started-at="2021-08-27T12:46:54 IST" name="Default test" finished-at="2021-08-27T12:47:38 IST" duration-ms="44521">
-      <class name="test.TestNG_Demeo">
-        <test-method is-config="true" signature="SetupTest()[pri:0, instance:test.TestNG_Demeo@78b66d36]" started-at="2021-08-27T12:46:54 IST" name="SetupTest" finished-at="2021-08-27T12:47:19 IST" duration-ms="25091" status="PASS">
+    <test started-at="2021-08-31T21:36:16 IST" name="Default test" finished-at="2021-08-31T21:37:03 IST" duration-ms="46726">
+      <class name="demo.Test1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demo.Test1@1d9b7cce]" started-at="2021-08-31T21:36:16 IST" name="setUp" finished-at="2021-08-31T21:36:34 IST" duration-ms="18587" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetupTest -->
-        <test-method signature="googleSearch()[pri:0, instance:test.TestNG_Demeo@78b66d36]" started-at="2021-08-27T12:47:19 IST" name="googleSearch" finished-at="2021-08-27T12:47:35 IST" duration-ms="16123" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:0, instance:demo.Test1@1d9b7cce]" started-at="2021-08-31T21:36:35 IST" name="test1" finished-at="2021-08-31T21:37:00 IST" duration-ms="24990" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleSearch -->
-        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:test.TestNG_Demeo@78b66d36]" started-at="2021-08-27T12:47:35 IST" name="tearDownTest" finished-at="2021-08-27T12:47:38 IST" duration-ms="3167" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.Test1@1d9b7cce]" started-at="2021-08-31T21:37:00 IST" name="tearDown" finished-at="2021-08-31T21:37:03 IST" duration-ms="2921" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- test.TestNG_Demeo -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo.Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

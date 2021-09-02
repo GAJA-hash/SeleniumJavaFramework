@@ -1,33 +1,41 @@
 package test;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pages.GoogleSearchPage;
 
-import pages.GoogleSearchPageObjects;
 
 public class GoogleSearchPageTest {
-	
 	private static WebDriver driver = null;
-	
+
 	public static void main(String[] args) {
-		googleSearchTest();
-		
+		// TODO Auto-generated method stub
+		googleSearch();
 	}
-	public static void googleSearchTest() {
-		
+	public static void googleSearch() {
 		String projectpath = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver",projectpath+"\\drivers\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
-		GoogleSearchPageObjects searchPageObj = new GoogleSearchPageObjects(driver);
-		
+		//goto google.com
 		driver.get("https://google.com");
 		
-		searchPageObj.SetTextInSearchBox("A b c d");
+		//enter text in search textbox
+		//driver.findElement(By.name("q")).sendKeys("Automation step by step");
 		
-		searchPageObj.clickSearchButton();
+		GoogleSearchPage.textbox_search(driver).sendKeys("Automation step by step");
+		//click on search button
+		//driver.findElement(By.name("q")).click();
+		//driver.findElement(By.name("q")).sendKeys(Keys.RETURN);
+		GoogleSearchPage.button_search(driver).sendKeys(Keys.RETURN);
 		
+		//close browser
 		driver.close();
-		}
+		System.out.println("Test Completed Successfully!!!");
+		
+		
+	}
 
 }
