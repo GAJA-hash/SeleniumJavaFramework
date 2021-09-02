@@ -1,0 +1,21 @@
+[INFO ] 2021-08-29 05:09:27.369 [main] Log4jDemo - This is information message
+[ERROR] 2021-08-29 05:09:27.373 [main] Log4jDemo - This is an error message
+[WARN ] 2021-08-29 05:09:27.373 [main] Log4jDemo - This is a warning message
+[FATAL] 2021-08-29 05:09:27.374 [main] Log4jDemo - This is a fatal message
+[INFO ] 2021-08-29 05:10:18.853 [main] Log4jDemo - This is information message
+[ERROR] 2021-08-29 05:10:18.854 [main] Log4jDemo - This is an error message
+[WARN ] 2021-08-29 05:10:18.854 [main] Log4jDemo - This is a warning message
+[FATAL] 2021-08-29 05:10:18.854 [main] Log4jDemo - This is a fatal message
+[INFO ] 2021-08-29 05:10:54.487 [main] Log4jDemo - This is information message
+[ERROR] 2021-08-29 05:10:54.487 [main] Log4jDemo - This is an error message
+[WARN ] 2021-08-29 05:10:54.488 [main] Log4jDemo - This is a warning message
+[FATAL] 2021-08-29 05:10:54.488 [main] Log4jDemo - This is a fatal message
+[INFO ] 2021-08-29 05:15:41.696 [main] Log4jDemo - This is information message
+[ERROR] 2021-08-29 05:15:41.697 [main] Log4jDemo - This is an error message
+[WARN ] 2021-08-29 05:15:41.697 [main] Log4jDemo - This is a warning message
+[FATAL] 2021-08-29 05:15:41.697 [main] Log4jDemo - This is a fatal message
+[TRACE] 2021-08-29 05:16:56.120 [main] Log4jDemo - This is trace message
+[INFO ] 2021-08-29 05:16:56.124 [main] Log4jDemo - This is information message
+[ERROR] 2021-08-29 05:16:56.125 [main] Log4jDemo - This is an error message
+[WARN ] 2021-08-29 05:16:56.125 [main] Log4jDemo - This is a warning message
+[FATAL] 2021-08-29 05:16:56.125 [main] Log4jDemo - This is a fatal message
